@@ -2,4 +2,8 @@ body{
     scale: 100%;
     background-color: black;
 }
+.cabecera{
+    display: flex;
+    flex-direction: row;
+}
 
