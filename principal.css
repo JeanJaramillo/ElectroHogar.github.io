@@ -3,6 +3,8 @@ body{
     background-color: black;
 }
 .cabecera{
+    height: 50px;
+    width: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -20,4 +22,5 @@ body{
     flex: 30%;
     width: 20px;
     text-align: right;
+    padding: inherit;
 }
