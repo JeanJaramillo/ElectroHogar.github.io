@@ -6,4 +6,18 @@ body{
     display: flex;
     flex-direction: row;
 }
-
+.cabecera-izq{
+    flex: 30%;
+    width: 20px;
+    text-align: left;
+}
+.cabecera-centro{
+    flex: 40%;
+    width: 30px;
+    text-align: center;
+}
+.cabecera-der{
+    flex: 30%;
+    width: 20px;
+    text-align: right;
+}
