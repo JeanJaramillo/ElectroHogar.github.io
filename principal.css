@@ -3,6 +3,9 @@ body{
     background-color: #e8e5da;
 }
 .cabecera1{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
     height: 30px;
     width: 100%;
     display: flex;
@@ -11,16 +14,20 @@ body{
 }
 .cabecera-izq{
     flex: 30%;
-    margin: auto;
-    margin-left: 20px;
+    margin-top: 10px;
+    margin-left: 50px;
     width: 20px;
     text-align: left;
 }
 .cabecera-centro{
     flex: 40%;
+    margin: 40px;
     width: 30px;
     text-align: center;
     color: #FFFFFF;
+    color: #000000;
+    font-family: Helvetica;
+    font-size: small;
 }
 .cabecera-der{
     flex: 30%;
@@ -48,10 +55,11 @@ body{
     margin-right: 50px;
     flex: 20%;
     height: 90px;
-    width: 50px;
     border: 0.2em;
     border-style: solid;
     border-color: #000000;
     text-align: center;
     color: #000000;
+    font-family: Helvetica;
+    font-size: small;
 }
