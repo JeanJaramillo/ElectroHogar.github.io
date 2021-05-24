@@ -25,16 +25,22 @@ body{
     text-align: right;
 }
 .cabecera2{
-    height: 70px;
+    height: 150px;
     width: 100%;
     display: flex;
     flex-direction: row;
     background-color:#24ae63;
 }
+.logo-texto{
+    flex: 80%;
+    text-align: left;
+}
 .carrito{
+    flex: 20%;
     height: 80px;
-    width: 150px;
-    border: 0.1em;
+    width: 140px;
+    border: 0.2em;
     border-style: solid;
     color: #000000;
+    text-align: right;
 }
