@@ -7,36 +7,35 @@ body{
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
-    height: 30px;
+    height: 10%;
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color:#24ae63;
+    background-color:#FFFFFF;
 }
 .cabecera-izq{
-    flex: 30%;
-    margin-top: 10px;
-    margin-left: 50px;
-    width: 20px;
-    text-align: left;
-}
+    flex: 10%;
+    height: 30px;
+    padding-top: 5px;
+    padding-left: 30PX;
+
+ }
 .cabecera-centro{
-    flex: 40%;
-    margin: 40px;
-    width: 30px;
+    flex: 30%;
+    height: 30px;
+    width: 400px;
     text-align: center;
-    color: #FFFFFF;
-    color: #000000;
     font-family: Helvetica;
-    font-size: small;
+    font-size: 12px;
+    color: #000000;
 }
 .cabecera-der{
-    flex: 30%;
-    margin: auto;
-    margin-right: 20px;
-    width: 30px;
-    text-align: right;
-    
+    flex: 60%;
+    height: 23px;
+    width: 300px;
+    padding-top: 7px;
+    padding-left: 170px;
+    text-align: center;   
 }
 .cabecera2{
     height: 150px;
@@ -47,20 +46,19 @@ body{
     
 }
 .logo-texto{
-    flex: 80%;
+    flex: 60%;
     text-align: left;
+    border: 0.3em;
+    border-style: solid;
 }
 .carrito{
-    margin: auto;
-    margin-top: 40px;
-    margin-right: 50px;
-    flex: 20%;
+    flex: 40%;
     height: 90px;
     border: 0.2em;
     border-style: solid;
     border-color: #FFFFFF;
     text-align: center;
-    color: #c0c0c0;
+    color: #000000;
     font-family: Helvetica;
     font-size: small;
 }
