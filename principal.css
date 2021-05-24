@@ -3,6 +3,7 @@ body{
     background-color: #e8e5da;
 }
 .cabecera1{
+    margin: auto;
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 0px;
@@ -57,9 +58,9 @@ body{
     height: 90px;
     border: 0.2em;
     border-style: solid;
-    border-color: #000000;
+    border-color: #FFFFFF;
     text-align: center;
-    color: #000000;
+    color: #c0c0c0;
     font-family: Helvetica;
     font-size: small;
 }
