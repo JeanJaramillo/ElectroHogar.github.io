@@ -1,4 +1,5 @@
 body{
+    size: 100%;
     background-color: #e8e5da;
 }
 .cabecera1{
@@ -6,10 +7,12 @@ body{
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color:#1d9367
+    background-color:#000000
 }
 .cabecera-izq{
     flex: 30%;
+    margin: auto;
+    margin-left: 20px;
     width: 20px;
     text-align: left;
 }
@@ -21,8 +24,11 @@ body{
 }
 .cabecera-der{
     flex: 30%;
+    margin: auto;
+    margin-right: 20px;
     width: 30px;
     text-align: right;
+    
 }
 .cabecera2{
     height: 150px;
@@ -36,11 +42,16 @@ body{
     text-align: left;
 }
 .carrito{
+    margin: auto;
+    margin-top: 40px;
+    margin-right: 50px;
     flex: 20%;
-    height: 80px;
-    width: 140px;
+    height: 90px;
+    width: 50px;
     border: 0.2em;
     border-style: solid;
     border-color: #000000;
-    text-align: right;
+    text-align: center;
+    color: #000000;
+
 }
