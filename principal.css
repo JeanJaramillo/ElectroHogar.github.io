@@ -46,16 +46,14 @@ body{
     
 }
 .logo-texto{
-    flex: 50%;
-    padding-top: 10px;
+    flex: 85%;
     padding-left: 30px;
     text-align: left;
-    border: 0.3em;
-    border-style: solid;
 }
 .carrito{
-    flex: 50%;
-    height: 90px;
+    flex: 15%;
+    margin: auto;
+    margin-right: 80px;
     border: 0.2em;
     border-style: solid;
     border-color: #FFFFFF;
@@ -63,4 +61,6 @@ body{
     color: #000000;
     font-family: Helvetica;
     font-size: small;
+    
+    
 }
