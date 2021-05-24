@@ -2,11 +2,12 @@ body{
     scale: 100%;
     background-color: #e8e5da;
 }
-.cabecera{
+.cabecera1{
     height: 50px;
     width: 100%;
     display: flex;
     flex-direction: row;
+    background-color:#24ae63;
 }
 .cabecera-izq{
     flex: 30%;
@@ -22,5 +23,11 @@ body{
     flex: 30%;
     width: 20px;
     text-align: right;
-    padding: inherit;
+}
+.cabecera2{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: initial;
+    background-color:#24ae63;
 }
