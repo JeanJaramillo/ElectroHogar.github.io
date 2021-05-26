@@ -1,6 +1,20 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body{
     size: 100%;
-    background-color: #000000;
+    background: linear-gradient(150deg, #fdf101,  #cc00ff, #00c298);
+    background-size: 400% 300%;
+    animation: BgGradient 5s ease infinite;
+}
+
+@keyframes BgGradient {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
 }
  
 .cabecera1{
@@ -12,7 +26,6 @@ body{
     width: 100%;
     display: flex;
     flex-direction: row;
-    background-color:#FFFFFF;
 }
 .cabecera-izq{
     flex: 10%;
@@ -24,18 +37,21 @@ body{
 .cabecera-centro{
     flex: 30%;
     height: 30px;
-    width: 400px;
-    text-align: center;
+    width: 300px;
+    padding: auto;
+    padding-top: 9px;
+    padding-right: 100px;
     font-family: Helvetica;
     font-size: 12px;
-    color: #000000;
+    color: rgb(0, 0, 0);
 }
 .cabecera-der{
     flex: 60%;
     height: 23px;
-    width: 300px;
-    padding-top: 7px;
-    padding-left: 170px;
+    width: 350px;
+    padding-top: 4px;
+    padding-left: 70px;
+    padding-bottom: 0;
     text-align: center;   
 }
 .cabecera2{
@@ -47,19 +63,24 @@ body{
     
 }
 .logo-texto{
-    flex: 85%;
+    flex: 90%;
     padding-left: 30px;
     padding-top: 10px;
     text-align: left;
 }
 .carrito{
-    flex: 15%;
-    margin: auto;
-    margin-right: 80px;
+    flex: 10%;
+    height: 70px;
+    width: 175px;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 160px;
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 10px;
     border: 0.2em;
     border-style: solid;
     border-color: #FFFFFF;
-    text-align: center;
     color: #000000;
     font-family: Helvetica;
     font-size: small;
