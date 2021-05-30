@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background: ;
+}
+.navegacion ul{
+    list-style: none;
+
+}
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li >a{
+    display: block;
+    padding: 15px 20 px;
+    color: #353535;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #ce7d35;
+    
+}
