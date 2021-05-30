@@ -22,11 +22,11 @@
     display: block;
     padding: 15px 20 px;
     color: #353535;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 
 .menu li a:hover{
     color: #ce7d35;
-    
+
 }
